@@ -1,0 +1,5 @@
+SELECT  nimi, sivuja, hinta, julkaisupvm FROM Kirja WHERE  sivuja < 500 AND hinta > 20 ;
+
+SELECT * FROM kustantaja WHERE toimipaikka='Espoo' or toimipaikka='Helsinki';
+
+SELECT Nimi FROM Kirja WHERE (TekijaID=201 and sivuja > 200) or (TekijaID=202 and hinta > 30); 

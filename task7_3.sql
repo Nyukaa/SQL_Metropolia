@@ -1,0 +1,1 @@
+SELECT Nimi, Hinta FROM Kirja WHERE (Hinta - 5) < 20; 
